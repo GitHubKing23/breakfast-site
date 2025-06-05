@@ -2,7 +2,10 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-// ... other imports
+import About from "./pages/About";
+import Menu from "./pages/Menu";
+import Gallery from "./pages/Gallery";
+import Reservations from "./pages/Reservations";
 
 function App() {
   return (
@@ -10,7 +13,10 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* Add other routes here */}
+        <Route path="/about" element={<About />} />
+        <Route path="/menu" element={<Menu />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/reservations" element={<Reservations />} />
       </Routes>
     </Router>
   );
