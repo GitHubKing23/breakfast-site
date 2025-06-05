@@ -17,6 +17,13 @@ Run tests with:
 npm test
 ```
 
+Build the production bundle and preview it:
+
+```bash
+npm run build
+npm run preview # or serve ./dist with any static server
+```
+
 The CMS is available at `/admin` when the site is served. Configure the GitHub repository in `public/admin/config.yml`.
 
 ## Color Scheme
