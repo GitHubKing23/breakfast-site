@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "title": "Pancakes",
+      "description": "Fluffy pancakes with syrup",
+      "price": "$5",
+      "category": "Breakfast"
+    },
+    {
+      "title": "Omelette",
+      "description": "Three-egg omelette with cheese",
+      "price": "$6",
+      "category": "Breakfast"
+    },
+    {
+      "title": "French Toast",
+      "description": "Served with powdered sugar",
+      "price": "$5",
+      "category": "Breakfast"
+    }
+  ]
+}
