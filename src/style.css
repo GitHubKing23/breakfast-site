@@ -103,3 +103,22 @@ button:focus-visible {
     background-color: var(--color-highlight);
   }
 }
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+form input {
+  border: 1px solid var(--color-primary);
+  border-radius: 4px;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+}
