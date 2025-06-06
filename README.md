@@ -30,3 +30,6 @@ The app uses the **Sunrise Breakfast** palette:
 | Highlight | `#E9C46A` | Honey yellow for buttons |
 | Background | `#FFF8F0` | Creamy off-white page background |
 | Callout | `#E76F51` | Strawberry red for headings and CTAs |
+
+## Troubleshooting
+If you encounter `React is not defined` when running `npm run dev`, make sure to run `npm install` first so the Vite React plugin is available.
