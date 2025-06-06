@@ -6,6 +6,7 @@ import Gallery from "./pages/Gallery";
 import About from "./pages/About";
 import Reservations from "./pages/Reservations";
 import TransitionWrapper from "./components/TransitionWrapper";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
