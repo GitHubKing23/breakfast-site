@@ -6,11 +6,11 @@ import Gallery from "./pages/Gallery";
 import About from "./pages/About";
 import Reservations from "./pages/Reservations";
 import TransitionWrapper from "./components/TransitionWrapper";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <>
       <Navbar />
       <Routes>
         <Route path="/" element={<TransitionWrapper><Home /></TransitionWrapper>} />
@@ -20,7 +20,7 @@ function App() {
         <Route path="/reservations" element={<TransitionWrapper><Reservations /></TransitionWrapper>} />
       </Routes>
       <Footer />
-    </Router>
+    </>
   );
 }
 
